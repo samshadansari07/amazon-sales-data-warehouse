@@ -110,6 +110,18 @@ The dataset contains information related to:
 
 The database is designed using a **Star Schema**, which is commonly used in Data Warehousing for reporting and analytics.
 
+---
+
+# 🗂 Data Model (Star Schema)
+
+The following star schema represents the data model used in this project. It consists of dimension tables (**Customers, Products, Sellers**) connected to the transactional fact tables (**Orders** and **OrderDetails**) through one-to-many relationships.
+
+This data model improves query performance and enables efficient business reporting and analytical dashboards in Power BI.
+
+![Star Schema](Screenshots/star_schema.png)
+
+---
+
 ## Dimension Tables
 
 - Customers
