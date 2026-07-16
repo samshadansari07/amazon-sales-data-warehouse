@@ -43,8 +43,7 @@ Amazon-Sales-Data-Warehouse/
 
 │
 ├── data/
-│   ├── raw/
-│   └── cleaned/
+│   ├── raw_Data
 │
 ├── sql/
 │   ├── 01_create_database.sql
@@ -69,7 +68,6 @@ Amazon-Sales-Data-Warehouse/
 │
 ├── screenshots/
 │
-├── diagrams/
 │
 └── README.md
 ```
